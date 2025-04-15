@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import "leaflet/dist/leaflet.css";
 import "leaflet-draw/dist/leaflet.draw.css";
 
+
 export default function Mapa() {
   const [polygonCoords, setPolygonCoords] = useState<any>(null);
   const [formData, setFormData] = useState({

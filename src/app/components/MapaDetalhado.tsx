@@ -3,6 +3,7 @@
 import { MapContainer, TileLayer, GeoJSON, useMap } from "react-leaflet";
 import { useEffect } from "react";
 import "leaflet/dist/leaflet.css";
+import L from "leaflet";
 
 function GeoJSONComZoom({ data }: { data: any }) {
   const map = useMap();
